@@ -13,6 +13,6 @@ def show_about_dialog(window):
     about_dialog.set_program_name("Surfico Browser")
     about_dialog.set_version("0.1")
     about_dialog.set_comments("First attempt to build my personal web browser helped by AI tools")
-    about_dialog.set_website("https://github.com/yourusername/surfico")
+    about_dialog.set_website("https://github.com/elevation75/surfico-browser")
     about_dialog.run()
     about_dialog.destroy()
