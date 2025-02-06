@@ -7,7 +7,7 @@ class MenuButton(Gtk.Box):
     def __init__(self, window):
         Gtk.Box.__init__(self, orientation=Gtk.Orientation.HORIZONTAL)
         self.window = window
-        self.logo_path = "/home/just/Documents/idei/waybar-idei/browser/surfico-logo1.png"
+        self.logo_path = "surfico-logo.png"
         
         # Create bookmarks button
         self.bookmarks_button = BookmarksButton(window)
@@ -62,7 +62,7 @@ class MenuButton(Gtk.Box):
         about_dialog.set_program_name("Surfico Browser")
         about_dialog.set_version("build ver.0.1")
         about_dialog.set_comments("First attempt to build my personal web browser helped by AI tools")
-        about_dialog.set_website("https://github.com/yourusername/surfico")
+        about_dialog.set_website("https://github.com/elevation75/surfico-browser")
         about_dialog.set_copyright("Surfico logo and names are trademarks registered of Surfico Foundation")
         about_dialog.run()
         about_dialog.destroy()
@@ -115,7 +115,7 @@ class MenuButton(Gtk.Box):
             "• History tracking\n\n"
             "• Extensions support (in future builds)\n\n"
             "For more information and updates, visit our "
-            "<a href='https://github.com/yourusername/surfico'>GitHub repository</a>"
+            "<a href='https://github.com/elevation75/surfico-browser'>GitHub repository</a>"
         )
         help_text.set_use_markup(True)
         help_text.set_line_wrap(True)
