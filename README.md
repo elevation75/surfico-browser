@@ -1,7 +1,8 @@
 # surfico-browser
-![surfico-logo](https://github.com/user-attachments/assets/f301c582-79a5-43f8-897f-ef3eb6322e77)
+![surfico-logo](https://github.com/user-attachments/assets/5c59c974-526e-4902-990b-2fc3f74cfb71)
 
-Trying to build my personal web browser using AI "intelligence" tools
+
+## Trying to build my personal web browser using AI "intelligence" tools
 
 ### Screenshots
 
