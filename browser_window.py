@@ -35,7 +35,7 @@ class BrowserWindow(Gtk.Window):
         # Create first tab
         self.create_new_tab()
 
-    def create_new_tab(self, url="https://www.arcolinux.info"):
+    def create_new_tab(self, url="https://www.google.com"):
         """Create a new browser tab"""
         tab = BrowserTab(url, self.on_tab_close_clicked)
         tab.webview.connect("load-changed", self.update_toolbar)
